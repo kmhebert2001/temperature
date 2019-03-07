@@ -7,7 +7,7 @@ Checks for valid Teacher input, compares Teacher temp to Student Temp, displays 
 
 # Installation
 
-Place the temperature/ directory onto your web server. Direct users to http://<your-site>/temperature
+Place the temperature/ directory onto your web server. Direct users to http://&lt;your-site&gt;/temperature
 
 # Cloud deployment
 
