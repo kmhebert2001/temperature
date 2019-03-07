@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Temperature</title>
+  <meta name="description" content="Temperature">
+  <meta name="author" content="Kevin Hebert">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<div id="main">
+		<form name="temperatureForm" id="temperatureForm">
+			<div class="formInput">Teacher Temp<br />
+				<input type="text" id="teacherTemp">
+			</div>
+			<div class="formInput">Teacher Unit<br />
+			<select id="teacherUnit">
+				<option value="C">Celsius</option>
+				<option value="F">Fahrenheit</option>
+				<option value="K">Kelvin</option>
+				<option value="R">Rankine</option>
+			</select>
+			</div>
+			<div class="formInput">Target Unit<br />
+			<select id="targetUnit">
+				<option value="C">Celsius</option>
+				<option value="F">Fahrenheit</option>
+				<option value="K">Kelvin</option>
+				<option value="R">Rankine</option>
+			</select>
+			</div>
+			<div class="formInput">Student Temp<br />
+				<input type="text" id="studentTemp">
+			</div>
+			<div class="formInput">Result<br />
+				<span  id="result">&nbsp;</span>
+			</div>
+		</form>
+	</div>
+  <script src="main.js"></script>
+</body>
+</html>
+		
